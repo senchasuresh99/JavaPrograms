@@ -8,10 +8,10 @@ public class ArmstrongNo {
 		int sum = 0, r;
 		while (temp != 0) {
 			r = temp % 10;
-			//System.out.println(",,,,"+r);
+			System.out.println(",,,,"+r);
 			sum = sum + r * r * r;
 			temp = temp / 10;
-			//System.out.println(temp);s
+			System.out.println(temp);s
 		}
 		if (n==sum) {
 			System.out.println("Armstrong No");
